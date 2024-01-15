@@ -1,0 +1,17 @@
+const Mongoose=require("mongoose")
+
+let regSchema=Mongoose.Schema(
+
+    {
+        name:String,
+        email:String,
+        phonenum:String,
+        password:String,
+        confirmpass:String,
+        gender:String
+        
+    }
+)
+
+let mentorregModel=Mongoose.model("mentorreg",regSchema)
+module.exports=mentorregModel
