@@ -12,8 +12,7 @@ login.use(Bodyparser.json())
 login.use(Bodyparser.urlencoded({extended:true}))
 
 
-Mongoose.connect("mongodb+srv://MSI:msi12345@cluster0.bzl6bnv.mongodb.net/projectdb?retryWrites=true&w=majority",{useNewUrlParser:true})
-
+Mongoose.connect("mongodb+srv://college:vyshnav123@cluster0.lzmcvg5.mongodb.net/projectdb?retryWrites=true&w=majority",{useNewUrlParser:true})
 
 login.get("/",(req,res)=>{
 
